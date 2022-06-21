@@ -16,7 +16,6 @@ function App() {
       .get(url)
       .then((res) => {
         setCoins(res.data);
-        console.log(res.data[0]);
       })
       .catch((error) => {
         console.log(error);
@@ -27,8 +26,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Coins coins={coins} />} />
-        <Route path="/coin" element={<Coin />}>
+        <Route path="/Cryptolist" element={<Coins coins={coins} />} />
+        <Route path="/Cryptolist/coin/" element={<Coin />}>
           <Route path=":coinId" element={<Coin />} />
         </Route>
       </Routes>

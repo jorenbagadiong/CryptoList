@@ -20,7 +20,11 @@ const Coins = ({ coins }) => {
         </div>
 
         {coins.map((coin) => (
-          <Link to={`/coin/${coin.id}`} element={<Coin />} key={coin.id}>
+          <Link
+            to={`/CryptoList/coin/${coin.id}`}
+            element={<Coin />}
+            key={coin.id}
+          >
             <CoinItem coin={coin} />
           </Link>
         ))}
