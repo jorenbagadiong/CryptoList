@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CryptoList/static/css/main.1c872347.css",
+    "main.js": "/CryptoList/static/js/main.6760ae24.js",
+    "index.html": "/CryptoList/index.html",
+    "main.1c872347.css.map": "/CryptoList/static/css/main.1c872347.css.map",
+    "main.6760ae24.js.map": "/CryptoList/static/js/main.6760ae24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c872347.css",
+    "static/js/main.6760ae24.js"
+  ]
+}
